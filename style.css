@@ -104,3 +104,10 @@ body {
 .container .text .btn:hover {
     background-color: var(--Very-dark-blue);
 }
+
+@media (max-width: 580px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
